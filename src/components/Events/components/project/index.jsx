@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./style.module.scss";
 import Link from "next/link";
 
-export default function index({
+export default function Index({
   index,
   title,
   name,
