@@ -151,7 +151,7 @@ function Index() {
   return (
     <div ref={container} className={`${styles.slidingImages} py-20`}>
       <h1 className="w-full pb-10 font-poppinsB text-4xl text-center">
-        Previous Year's DevHost
+        Previous Year&apos;s DevHost
       </h1>
       <div>
         <motion.div
