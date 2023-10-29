@@ -98,7 +98,7 @@ const Hero = () => {
     <div className="flex justify-center items-center bg-black">
       <img
         src="/cover.png"
-        className="w-full object-contain h-screen md:pb-0 pb-20"
+        className="w-full object-contain h-screen"
         alt="hero-image"
       ></img>
       <div className={`absolute z-40 float text-white bottom-0 my-10`}>
