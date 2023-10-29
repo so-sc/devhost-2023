@@ -179,7 +179,7 @@ function Index() {
   };
 
   return (
-    <div ref={container} className={styles.slidingImages}>
+    <div ref={container} className={`${styles.slidingImages} pt-20`}>
       <main
         onMouseMove={(e) => {
           moveItems(e.clientX, e.clientY);

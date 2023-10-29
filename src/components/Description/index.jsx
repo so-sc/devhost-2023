@@ -18,7 +18,7 @@ export default function Index() {
           className={`flex md:flex-row flex-col md:px-14 lg:px-20 px-7 ${styles.body}`}
         >
           <div className="flex flex-col justify-center">
-            <h1 className="font-poppinsB text-4xl mb-5">ABOUT</h1>
+            <h1 className="font-poppinsB text-4xl mb-5">About</h1>
             <p className="font-poppinsR text-xl md:text-2xl">
               {phrase.split(" ").map((word, index) => {
                 return (

@@ -112,28 +112,28 @@ const slider1 = [
     src: "1.jpg",
   },
   {
-    src: "1.jpg",
+    src: "2.jpg",
   },
   {
-    src: "1.jpg",
+    src: "3.jpg",
   },
   {
-    src: "1.jpg",
+    src: "4.jpg",
   },
 ];
 
 const slider2 = [
   {
-    src: "1.jpg",
+    src: "5.jpg",
   },
   {
-    src: "1.jpg",
+    src: "6.jpg",
   },
   {
-    src: "1.jpg",
+    src: "7.jpg",
   },
   {
-    src: "1.jpg",
+    src: "8.jpg",
   },
 ];
 
@@ -149,9 +149,12 @@ function Index() {
   const height = useTransform(scrollYProgress, [0, 0.9], [50, 0]);
 
   return (
-    <div ref={container} className={`${styles.slidingImages} py-20`}>
+    <div
+      ref={container}
+      className={`${styles.slidingImages} bg-black text-white py-20`}
+    >
       <h1 className="w-full pb-10 font-poppinsB text-4xl text-center">
-        Previous Year&apos;s DevHost
+        DevHost 22
       </h1>
       <div>
         <motion.div
@@ -167,9 +170,9 @@ function Index() {
                 <div className={styles.imageContainer}>
                   <Image
                     fill={true}
-                    alt={"reoarts"}
+                    alt={"devhost22"}
                     className="rounded-2xl"
-                    src={`/${art.src}`}
+                    src={`/devhost22/${art.src}`}
                   />
                 </div>
               </div>
@@ -190,9 +193,9 @@ function Index() {
               <div key={index} className={styles.imageContainer}>
                 <Image
                   fill={true}
-                  alt={"reoarts"}
+                  alt={"devhost22"}
                   className="rounded-2xl"
-                  src={`/${art.src}`}
+                  src={`/devhost22/${art.src}`}
                 />
               </div>
             </div>
