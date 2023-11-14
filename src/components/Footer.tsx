@@ -1,4 +1,4 @@
-import Link from "@/components/Links";
+import Link from "next/link";
 
 const githubLink = "https://github.com/so-sc";
 const linkedinLink = "https://linkedin.com/company/sosc-sahyadri";
@@ -6,7 +6,7 @@ const instagramLink = "https://instagram.com/sosc.sahyadri";
 const facebookLink = "https://m.facebook.com/profile.php?id=100073345130252";
 const twitterLink = "https://twitter.com/sahyadri_osc";
 const youtubeLink = "https://www.youtube.com/channel/UCk8nlSMwUT-jhEtamMF-V-w";
-const discordLink = "https://discord.gg/Ddc5Y6tCKk";
+const discordLink = "https://discord.com/invite/hHYfMRydAK";
 
 const communityGuidelines = "https://github.com/so-sc/code-of-conduct";
 
@@ -18,23 +18,66 @@ const Footer = () => {
           <div className="flex flex-grow md:pl-20 mb-10 mx-6 md:mt-0 mt-10 ">
             <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <div className="flex text-white flex-col">
-                <Link href={githubLink} target="_blank" text="GitHub" />
-                <Link href={linkedinLink} target="_blank" text="LinkedIn" />
-                <Link href={instagramLink} target="_blank" text="Instagram" />
-                <Link href={facebookLink} target="_blank" text="Facebook" />
-                <Link href={twitterLink} target="_blank" text="Twitter" />
+                <Link
+                  className="pt-2 hover:underline underline-offset-8"
+                  href={githubLink}
+                  target="_blank"
+                >
+                  GitHub
+                </Link>
+                <Link
+                  className="pt-2 hover:underline underline-offset-8"
+                  href={linkedinLink}
+                  target="_blank"
+                >
+                  LinkedIn
+                </Link>
+                <Link
+                  className="pt-2 hover:underline underline-offset-8"
+                  href={instagramLink}
+                  target="_blank"
+                >
+                  Instagram
+                </Link>
+                <Link
+                  className="pt-2 hover:underline underline-offset-8"
+                  href={facebookLink}
+                  target="_blank"
+                >
+                  Facebook
+                </Link>
+                <Link
+                  className="pt-2 hover:underline underline-offset-8"
+                  href={twitterLink}
+                  target="_blank"
+                >
+                  Twitter
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <div className="flex text-white flex-col">
-                <Link href={youtubeLink} target="_blank" text="Youtube" />
-                <Link href={discordLink} target="_blank" text="Discord" />
                 <Link
+                  className="pt-2 hover:underline underline-offset-8"
+                  href={youtubeLink}
+                  target="_blank"
+                >
+                  Youtube
+                </Link>
+                <Link
+                  className="pt-2 hover:underline underline-offset-8"
+                  href={discordLink}
+                  target="_blank"
+                >
+                  Discord
+                </Link>
+                <Link
+                  className="pt-2 hover:underline underline-offset-8"
                   href={communityGuidelines}
                   target="_blank"
-                  text="Community Guidelines"
-                />
-                {/* <Link href="#" target="_blank" text="Donate" /> */}
+                >
+                  Community Guidelines
+                </Link>
               </div>
             </div>
           </div>
@@ -91,11 +134,15 @@ const Footer = () => {
               Sahyadri College of Engineering and Management, Adyar, Mangalore -
               575007 IN
             </p>
-            <Link
-              target="_blank"
-              text="sosc@sahyadri.edu.in"
-              href="mailto:sosc@sahyadri.edu.in"
-            />
+            <div className="mt-2">
+              <Link
+                className="hover:underline underline-offset-8"
+                target="_blank"
+                href="mailto:sosc@sahyadri.edu.in"
+              >
+                sosc@sahyadri.edu.in
+              </Link>
+            </div>
           </div>
         </div>
         <div className="text-white">

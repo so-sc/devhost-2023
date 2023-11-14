@@ -1,9 +1,15 @@
-import { siteConfig } from "@/config/site";
+import type { Metadata } from "next";
 import "./globals.css";
-import { Inter } from "next/font/google";
-import { Metadata } from "next";
+import { siteConfig } from "@/config/site";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppins",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -43,14 +49,9 @@ export const metadata: Metadata = {
     images: [siteConfig.ogImage],
     creator: "@sahyadri_osc",
   },
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+  other: {
+    "theme-color": "#000000",
+    "color-scheme": "dark only",
   },
 };
 
@@ -61,9 +62,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="flex flex-col">{children}</div>
-      </body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }
