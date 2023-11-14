@@ -52,7 +52,7 @@ export default function Index() {
           <h1 className="font-bold text-4xl mx-5 mb-5">Events</h1>
           <div className="grid lg:grid-cols-3 md:grid-cols-2">
             {events.map((event: Event, index: number) => (
-              <Dialog>
+              <Dialog key={index}>
                 <DialogTrigger>
                   <Card className="m-5 text-start tracking-wide hover:scale-[102%] transition duration-200">
                     <CardHeader>

@@ -12,7 +12,7 @@ function TextSlide() {
         transition={{ ease: "easeInOut", duration: 0.2 }}
       >
         <div
-          className={`${styles.scroll_text_container} bg-black text-white py-10 text-6xl md:text-8xl font-semibold`}
+          className={`${styles.scroll_text_container} bg-black text-white py-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold`}
         >
           <div className={styles.scroll_text}>
             <p className="flex items-center">Registrations Opening Soon</p>
