@@ -12,10 +12,10 @@ const communityGuidelines = "https://github.com/so-sc/code-of-conduct";
 
 const Footer = () => {
   return (
-    <div className="bg-black font-poppinsR">
+    <div className="bg-black xl:px-10 md:px-4 lg:px-20 font-poppinsR">
       <footer className="body-font tracking-wider">
-        <div className="container md:pt-14 pb-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="flex flex-grow md:pl-20 mb-10 mx-6 md:mt-0 mt-10 ">
+        <div className="md:pt-14 pb-10 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div className="flex flex-grow mb-10 mx-4 md:mx-6 md:mt-0 mt-10 ">
             <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <div className="flex text-white flex-col">
                 <Link
@@ -81,7 +81,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/3 text-white flex-shrink-0 mx-10">
+          <div className="md:w-1/3 text-white flex-shrink-0 mx-8">
             <svg
               width="67.248604"
               height="18.71397"
