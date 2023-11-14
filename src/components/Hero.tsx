@@ -19,7 +19,7 @@ const Hero = () => {
           className="w-full bg-black object-contain h-screen"
           alt="hero-image"
         ></Image>
-        <div className="absolute z-40 float text-white bottom-0 my-10">
+        <div className="absolute z-40 float text-white bottom-0 sm:my-10 my-20">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40"
