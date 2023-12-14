@@ -35,6 +35,17 @@ const cardData: CardData[] = [
     linkedin: "https://www.linkedin.com/in/sankshipth",
     imageSrc: "speaker2.png",
   },
+
+  {
+    id: 2,
+    title: "Git & GitHub",
+    date: "22 December 2023, 9:30 am",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+    speaker: "Deveesh Shetty",
+    linkedin: "https://www.linkedin.com/in/sankshipth",
+    imageSrc: "speaker1.png",
+  },
 ];
 
 const Card = () => {
