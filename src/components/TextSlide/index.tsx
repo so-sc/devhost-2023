@@ -12,23 +12,23 @@ function TextSlide() {
         transition={{ ease: "easeInOut", duration: 0.2 }}
       >
         <div
-          className={`${styles.scroll_text_container} bg-black text-white py-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold`}
+          className={`${styles.scroll_text_container} bg-black text-white py-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-nebulaR font-semibold`}
         >
           <div className={styles.scroll_text}>
             <p className="flex items-center">Registrations Opening Soon</p>
-            <p>&bull;</p>
+            <p className="text-[#B4FF39]">&bull;</p>
             <p className="flex items-center">Registrations Opening Soon</p>
-            <p>&bull;</p>
+            <p className="text-[#B4FF39]">&bull;</p>
             <p className="flex items-center">Registrations Opening Soon</p>
-            <p>&bull;</p>
+            <p className="text-[#B4FF39]">&bull;</p>
           </div>
           <div className={styles.scroll_text}>
             <p className="flex items-center">Registrations Opening Soon</p>
-            <p>&bull;</p>
+            <p className="text-[#B4FF39]">&bull;</p>
             <p className="flex items-center">Registrations Opening Soon</p>
-            <p>&bull;</p>
+            <p className="text-[#B4FF39]">&bull;</p>
             <p className="flex items-center">Registrations Opening Soon</p>
-            <p>&bull;</p>
+            <p className="text-[#B4FF39]">&bull;</p>
           </div>
         </div>
       </motion.section>
