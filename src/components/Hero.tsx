@@ -12,7 +12,7 @@ const Hero = () => {
         height={500}
       ></Image>
       <div className="font-nebulaR text-2xl sm:text-3xl md:text-4xl text-[#A0A0A0] my-3">
-        <TypingAnimation message="coming soon" />
+        <TypingAnimation message="23th & 24th" />
       </div>
     </div>
   );
