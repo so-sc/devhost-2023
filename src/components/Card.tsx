@@ -16,35 +16,57 @@ interface CardData {
 const cardData: CardData[] = [
   {
     id: 1,
-    title: "Git & GitHub",
-    date: "22 December 2023, 9:30 am",
+    title: "Salesforce",
+    date: "23rd, 05:00 pm - 07:00 pm",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
-    speaker: "Sankshipth Shetty",
-    linkedin: "https://www.linkedin.com/in/sankshipth",
-    imageSrc: "speaker1.png",
+    speaker: "Mohammed Shahid",
+    linkedin: "https://www.linkedin.com/in/shahidbit/",
+    imageSrc: "shahid.jpg",
   },
 
   {
     id: 2,
-    title: "Git & GitHub",
-    date: "22 December 2023, 9:30 am",
+    title: "DevOps + Cloud",
+    date: "23rd, 07:00 pm - 08:30 pm",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
-    speaker: "Srajan Kumar",
-    linkedin: "https://www.linkedin.com/in/sankshipth",
-    imageSrc: "speaker2.png",
+    speaker: "Arjun Suvarna",
+    linkedin: "https://www.linkedin.com/in/arjun-suvarna/",
+    imageSrc: "arjun.jpg",
   },
 
   {
-    id: 2,
-    title: "Git & GitHub",
-    date: "22 December 2023, 9:30 am",
+    id: 3,
+    title: "Engineering & UX",
+    date: "24th, 11:00 am - 12:30 pm",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+    speaker: "Adib Ghani Ahamed",
+    linkedin: "https://www.linkedin.com/in/adib-kalopsia/",
+    imageSrc: "adibb.jpg",
+  },
+
+  {
+    id: 4,
+    title: "Introduction to Cloud & JavaScript",
+    date: "24th, 02:00 pm - 03:30 pm",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
     speaker: "Deveesh Shetty",
-    linkedin: "https://www.linkedin.com/in/sankshipth",
-    imageSrc: "speaker1.png",
+    linkedin: "https://www.linkedin.com/in/deveesh-shetty/",
+    imageSrc: "deveesh.jpeg",
+  },
+
+  {
+    id: 4,
+    title: "Ask me Anything about Placements",
+    date: "24th, 03:30 pm - 05:00 pm",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+    speaker: "Swasthik Shetty",
+    linkedin: "https://www.linkedin.com/in/swaaz/",
+    imageSrc: "swaaz.jpg",
   },
 ];
 
