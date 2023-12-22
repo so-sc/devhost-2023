@@ -15,19 +15,19 @@ function TextSlide() {
           className={`${styles.scroll_text_container} bg-black text-white py-10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-nebulaR font-semibold`}
         >
           <div className={styles.scroll_text}>
-            <p className="flex items-center">Registrations Opening Soon</p>
+            <p className="flex items-center">Online</p>
             <p className="text-[#B4FF39]">&bull;</p>
-            <p className="flex items-center">Registrations Opening Soon</p>
+            <p className="flex items-center">Online</p>
             <p className="text-[#B4FF39]">&bull;</p>
-            <p className="flex items-center">Registrations Opening Soon</p>
+            <p className="flex items-center">Online</p>
             <p className="text-[#B4FF39]">&bull;</p>
           </div>
           <div className={styles.scroll_text}>
-            <p className="flex items-center">Registrations Opening Soon</p>
+            <p className="flex items-center">Online</p>
             <p className="text-[#B4FF39]">&bull;</p>
-            <p className="flex items-center">Registrations Opening Soon</p>
+            <p className="flex items-center">Online</p>
             <p className="text-[#B4FF39]">&bull;</p>
-            <p className="flex items-center">Registrations Opening Soon</p>
+            <p className="flex items-center">Online</p>
             <p className="text-[#B4FF39]">&bull;</p>
           </div>
         </div>
