@@ -19,7 +19,7 @@ const cardData: CardData[] = [
     title: "Unlocking Business Potential with Salesforce Cloud",
     date: "23rd, 05:00 pm - 07:00 pm",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+      "Experienced Salesforce Developer specializing in Apex, Triggers, Aura, and LWC, currently serving as the team lead at Novigo Solutions.",
     speaker: "Mohammed Shahid",
     linkedin: "https://www.linkedin.com/in/shahidbit/",
     imageSrc: "shahid.jpg",
@@ -30,7 +30,7 @@ const cardData: CardData[] = [
     title: "Exploring DevOps Essentials for Modern Innovation",
     date: "23rd, 07:00 pm - 08:30 pm",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+      "Master of Science and Graduate Research Assistant at The University of Texas at Arlington, USA. Former Java Full Stack Developer at IBM with expertise in Spring Boot, Angular, Cloud, CI/CD, Node.js, and Python.",
     speaker: "Arjun Suvarna",
     linkedin: "https://www.linkedin.com/in/arjun-suvarna/",
     imageSrc: "arjun.jpg",
@@ -41,7 +41,7 @@ const cardData: CardData[] = [
     title: "Engineering and UX Synergy",
     date: "24th, 11:00 am - 12:30 pm",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+      "Senior UI/UX Designer at Novigo Solutions with a strong background in graphic design. Former Design Head at SOSC, bringing 5 years of expertise in UI/UX.",
     speaker: "Adib Ghani Ahamed",
     linkedin: "https://www.linkedin.com/in/adib-kalopsia/",
     imageSrc: "adib.jpg",
@@ -52,7 +52,7 @@ const cardData: CardData[] = [
     title: "Ask me anything about Placements",
     date: "24th, 02:00 pm - 03:30 pm",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+      "Cloud Solutions Engineer at Google. Formerly led open-source communities, including GitHub Campus Expert, Microsoft LSA, HackClub, Codechef, and SOSC.",
     speaker: "Swasthik Shetty",
     linkedin: "https://www.linkedin.com/in/swaaz/",
     imageSrc: "swaaz.jpg",
@@ -63,7 +63,7 @@ const cardData: CardData[] = [
     title: "Promising with JavaScript",
     date: "24th, 03:30 pm - 07:00 pm",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates consequuntur exercitationem quis, repellat fuga reprehenderit provident. Fuga laborum ratione eos corporis amet aperiam dolores, ad reiciendis vel id ipsa voluptates a!",
+      "Frontend Developer and the President of Sahyadri Open Source Community, Postman Student Leader at SCEM. Intern at Niveus Solutions, Mangalore. Loves building projects. Exploring Cloud and DevOps.",
     speaker: "Deveesh Shetty",
     linkedin: "https://www.linkedin.com/in/swaaz/",
     imageSrc: "deveesh.jpeg",
@@ -105,7 +105,7 @@ const Card = () => {
                 <h3 className="font-nebulaR tracking-wider text-lg">
                   {card.date}
                 </h3>
-                {/* <p className="font-jetbrainsMono pb-2">{card.description}</p> */}
+                <p className="font-jetbrainsMono pb-2">{card.description}</p>
                 <div className="flex justify-between text-xl text-[#b4ff39] font-nebulaR tracking-wide">
                   <div className="mr-5">{card.speaker}</div>
                   <Link

@@ -1,19 +1,53 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const DynamicImage = dynamic(() => import("next/image"), { ssr: false });
 
 const Register = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <Link
       href="https://forms.gle/eup7oCeG6rKaZ3cH8"
       target="_blank"
-      className="flex font-nebulaR text-xl md:text-2xl text-white"
+      className="flex transition-all duration-300 font-nebulaR text-xl md:text-2xl text-white"
     >
-      {"Register"}
-      <div className="flex hover:space-x-1 transition-all duration-300 justify-center mx-1 items-center">
-        <Image src="/after.svg" alt="." width={25} height={25}></Image>
-        <Image src="/after.svg" alt="." width={25} height={25}></Image>
-        <Image src="/after.svg" alt="." width={25} height={25}></Image>
-      </div>
+      <div className="mr-1">Register</div>
+      <DynamicImage
+        src={isHovered ? "/before.svg" : "/after.svg"}
+        alt="."
+        width={25}
+        height={25}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      />
+      <DynamicImage
+        src={isHovered ? "/before.svg" : "/after.svg"}
+        alt="."
+        width={25}
+        height={25}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      />
+      <DynamicImage
+        src={isHovered ? "/before.svg" : "/after.svg"}
+        alt="."
+        width={25}
+        height={25}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      />
     </Link>
   );
 };
