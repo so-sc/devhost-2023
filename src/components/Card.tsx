@@ -61,7 +61,7 @@ const cardData: CardData[] = [
   {
     id: 5,
     title: "Promising with JavaScript",
-    date: "24th, 03:30 pm - 07:00 pm",
+    date: "24th, 03:30 pm - 05:00 pm",
     description:
       "Frontend Developer and the President of Sahyadri Open Source Community, Postman Student Leader at SCEM. Intern at Niveus Solutions, Mangalore. Loves building projects. Exploring Cloud and DevOps.",
     speaker: "Deveesh Shetty",
