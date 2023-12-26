@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="font-nebulaR text-2xl sm:text-3xl md:text-4xl text-[#A0A0A0] my-3">
         <TypingAnimation message="23th & 24th" />
       </div>
-      <Register />
+      {/*<Register />*/}
     </div>
   );
 };
