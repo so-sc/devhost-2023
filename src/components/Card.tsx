@@ -65,7 +65,7 @@ const cardData: CardData[] = [
     description:
       "Frontend Developer and the President of Sahyadri Open Source Community, Postman Student Leader at SCEM. Intern at Niveus Solutions, Mangalore. Loves building projects. Exploring Cloud and DevOps.",
     speaker: "Deveesh Shetty",
-    linkedin: "https://www.linkedin.com/in/swaaz/",
+    linkedin: "https://www.linkedin.com/in/deveesh-shetty/",
     imageSrc: "deveesh.jpeg",
   },
 ];
